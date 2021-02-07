@@ -7,7 +7,7 @@ const MyMessage = ({ message }) => {
         className = "message-image"
         style = {{ float:'right' }}
         />
-    )
+    );
     }
     return(
         <div className="message" style = {{float:'right', marginRight:'14px', color:'white', backgroundColor: 'red'}}>
