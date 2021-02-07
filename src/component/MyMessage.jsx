@@ -10,7 +10,7 @@ const MyMessage = ({ message }) => {
     );
     }
     return(
-        <div className="message" style = {{float:'right', marginRight:'14px', color:'white', backgroundColor: 'red'}}>
+        <div className="message" style = {{float:'right', marginRight:'14px', color:'white', backgroundColor: 'purple'}}>
            {message.text}
         </div>
     );

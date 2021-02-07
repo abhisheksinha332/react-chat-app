@@ -6,21 +6,27 @@
 }
 
 .ce-chat-list {
-  background-color: rgb(240, 240, 240) !important;
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%) !important;
 }
 
 .ce-chats-container {
-  background-color: rgb(240, 240, 240) !important;
+  background-color: rgba(240, 240, 240,0.2) !important;
+  
+  
+}
+.ce-chat-card{
+  border-bottom: 0.5px solid black; ;
 }
 
 .ce-active-chat-card {
-  background-color: #cabcdc !important;
-  border: 4px solid #cabcdc !important;
+  background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%) !important;
+  border: 4px solid rgba(240, 240, 240,0.0) !important;
   border-radius: 0px !important;
+  
 }
 
 .ce-chat-subtitle-text {
-  color: #595959 !important;
+  color: black;
 }
 
 .ce-chat-form-container {
@@ -29,12 +35,12 @@
 
 .ce-text-input {
   border-radius: 6px !important;
-  border: 1px solid #3b2a50 !important;
+  border: 1px solid white !important;
 }
 
 .ce-primary-button {
   border-radius: 6px !important;
-  background-color: #7554a0 !important;
+  background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%) !important;
   position: relative;
   bottom: 1px;
 }
@@ -45,7 +51,7 @@
 }
 
 .ce-settings {
-  background-color: rgb(240, 240, 240) !important;
+  background-image: linear-gradient(to left, #f83600 0%, #f9d423 100%) !important;
 }
 
 .ce-autocomplete-input {
@@ -73,7 +79,7 @@
   height: 100%;
   width: 100%;
   overflow: scroll;
-  background-color: rgb(240, 240, 240);
+  background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
 }
 
 .chat-title-container {
@@ -155,9 +161,10 @@
 .message-form-container {
   position: absolute;
   bottom: 0px;
-  width: calc(100% - 36px);
+  width: calc(100% - 22px);
   padding: 18px;
-  background-color: rgb(240, 240, 240);
+  background-color: rgba(240, 240, 240,0.3);
+  margin-left: 2.5px;
 }
 
 .message-form {
@@ -217,7 +224,7 @@
   height: 100vh;
     width: 100%;
   background: rgb(117,84,160);
-  background: linear-gradient(90deg, rgba(117,84,160,1) 7%, rgba(117,84,160,1) 17%, rgba(106,95,168,1) 29%, rgba(99,103,174,1) 44%, rgba(87,116,184,1) 66%, rgba(70,135,198,1) 83%, rgba(44,163,219,1) 96%, rgba(22,188,237,1) 100%, rgba(0,212,255,1) 100%);  
+  background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);
   display: flex;
   justify-content: center;
   align-items: center;
